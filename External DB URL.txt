@@ -1,0 +1,1 @@
+postgresql://etl_db_ax00_user:uC5aUq9vOUrLxjnCrOWYlPJUIXjxBPoJ@dpg-d82oc183kofs73d1018g-a.singapore-postgres.render.com/etl_db_ax00
