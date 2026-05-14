@@ -1,0 +1,54 @@
+--- 📊 ETL Activity Analytics ---
+Total Transactions Analyzed: 2098
+Total Revenue (USD): $485,293.57
+
+## 1. Revenue by Store Location (USD)
+store_location
+Japan      $243,300.12
+Myanmar    $241,993.45
+Name: total_amount, dtype: object
+------------------------------
+
+
+## 2. Top 3 Categories by Units Sold
+category
+Fashion accessories    842
+Food                   829
+Health and beauty      817
+Name: quantity, dtype: int64
+------------------------------
+
+## 3. Average Customer Rating by Membership Tier
+membership
+Gold     7.04
+Normal   7.01
+Silver   6.99
+Name: rating, dtype: float64
+------------------------------
+
+
+## 4. Payment Method Usage by Country (Transaction Count)
+payment_method  Japan  Myanmar  Total
+Cash              343      332    675
+Ewallet           332      345    677
+Credit Card       325      321    646
+------------------------------
+
+
+## 5. Most Profitable Hour of the Day (Top 3)
+Top 3 Peak Hours (Revenue):
+hour
+12    $51,666.31
+19    $49,410.31
+18    $48,329.14
+Name: total_amount, dtype: object
+Peak Hour: 12 (e.g., 14 means 2 PM)
+------------------------------
+
+# | Insight               | Finding                                                                 | Business Implication
+--+-----------------------+-------------------------------------------------------------------------+---------------------------------------------------------------
+1 | Revenue Parity        | Japan ($243.3k) and Myanmar ($242.0k) generate nearly identical revenue. | Market performance is balanced; keep similar marketing and inventory strategies.
+2 | Top Categories        | Fashion accessories (842 units) and Food (829 units) lead in sales.      | Prioritize these categories for stocking, promos, and shelf placement.
+3 | Ratings vs Membership | Gold members have the highest avg rating (7.04); Silver the lowest (6.99)| Ratings are consistently high; service quality is uniform across tiers.
+4 | Payment Preference    | E-wallet (677 transactions) is most used; Cash and Credit Card follow.   | Invest in E-wallet infrastructure and partnerships.
+5 | Peak Hour             | Highest profit at 12:00 PM, then 7 PM and 6 PM.                          | Maximize staffing, stock, and lunch-hour promotions at noon.
